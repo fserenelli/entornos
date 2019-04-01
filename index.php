@@ -73,6 +73,7 @@
                     echo "</div>";
                   } ?>
             </div>
+
             <div class="textarea">
                   <div class="campo">
                     <label for="mensaje"> Mensaje <br/>
@@ -81,6 +82,9 @@
                     <input type="submit">
                   </div>
             </div>
+
+
+            
             
           </form>
         </div>
