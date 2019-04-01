@@ -81,9 +81,7 @@
                     <input type="submit">
                   </div>
             </div>
-            <div>
-              <p>hola rodri</p>
-            </div>
+            
           </form>
         </div>
     </div>
