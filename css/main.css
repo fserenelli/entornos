@@ -1,0 +1,61 @@
+/*** PRINCIPAL ***/
+
+div.contenedor-principal {
+	margin: 0 auto;
+	background: -webkit-linear-gradient(top, #cccccc 2%,#eeeeee 31%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cccccc 2%,#eeeeee 31%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+div.contenedor-principal:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+div.c-izquierda {
+	background-image: url(../img/12.jpg);
+	background-size: cover;
+    background-position: top center;
+    height: 100vh;
+	width: 50%;
+	float: left;
+}
+div.c-derecha {
+	width: 50%;
+	float: right;
+    text-align: right;
+    height: 100vh;
+}
+
+
+/** Registro **/
+
+form.registro {
+	text-align: center;
+	height: 100vh;
+	padding: 30% 20% 30% 20%;
+}
+h1.nombre-sitio {
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 30px #000000;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 10%;
+}
+div.login {
+	padding-top: 10%;
+	display: inline-block;
+}
+div.campo {
+    padding: 5px;
+}
+div.botones {
+	
+}
+div.botones .iniciar-sesion {
+	float: right;
+	padding-right: 20px;
+}
+div.botones .crear-cuenta {
+	float: left;
+	padding-left: 20px;
+}
